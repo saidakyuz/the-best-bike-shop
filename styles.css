@@ -1,0 +1,30 @@
+
+body {
+  background-color: aqua;
+}
+
+.asdf {
+  background: aqua;
+}
+
+.greyblock1 {
+  height: 450px;
+}
+
+.blackblock {
+  height: 200px;
+}
+
+.emailblock {
+  height: 450px;
+}
+
+.iconsblock {
+  height: 250px
+}
+
+
+/* 1.grey box: 1600 x 450px
+black box: 1600 x 200px
+email section: 1600 x 450px
+grey box with icons: 1600 x 250px

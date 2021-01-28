@@ -1,5 +1,9 @@
 
-p {
+#paul {
+
+}
+
+#paul p {
   margin: 0;
 }
 
@@ -26,14 +30,18 @@ p {
 .tweet {
   
   width: 800px;
-  border: 5px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
 }
+
+.tweet p {
+  color: grey;
 }
+
+
 
 .twitterBlock img {
   height: 27px;

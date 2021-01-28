@@ -1,6 +1,24 @@
 
+header {
+  background-image: url(./assets/Layer7.png);
+  height: 800px;
+  width: 1600px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
-  background-color: aqua;
+  background-color: white;
+}
+
+.introduction {
+  height: 450px;
+  width: 1600px;
+  text-align: center;
+  font-size: 15px;
 }
 
 .asdf {

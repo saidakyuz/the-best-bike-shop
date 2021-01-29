@@ -1,73 +1,79 @@
 
-        div.flex-container {
-        background-color: whitesmoke;
-        height: 600px;
-        overflow: inherit;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .box-text p {
-        text-align: justify;
-    }
-    
-    div.big-image {
-        flex: 2;
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-        header {
-            background-image: url(./assets/Layer7.png);
-            height: 800px;
-            width: 1600px;
-        }
-        table {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        body {
-            background-color: white;
-        }
-        .introduction {
-            height: 450px;
-            width: 1600px;
-            text-align: center;
-            font-size: 15px;
-        }
-        div.big-image.big-first {
-            background-image: url(assets/Layer\ 10.png);
-        }
-        div.big-image.big-second {
-            background-image: url(assets/Layer\ 12.png);
-        }
-        .foto-with-text {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        div.box-text {
-            flex: 2;
-            display: flex;
-        }
-        .texts-foto-box {
-            background-size: cover;
-            background-repeat: no-repeat;
-            flex: 1;
-        }
-        .texts-foto-box.first {
-            background-image: url(assets/Layer\ 11.png);
-        }
-        .texts-foto-box.second {
-            background-image: url(assets/Layer\ 20.png);
-        }
-        .box-text-wrapper {
-            margin: auto 50px;
-            text-align: center;
-        }
-      
+div.flex-container {
+    background-color: whitesmoke;
+    height: 600px;
+    overflow: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-text p {
+    text-align: justify;
+}
+
+div.big-image {
+    flex: 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: white;
+}
+
+.introduction {
+    height: 450px;
+    width: 1600px;
+    text-align: center;
+    font-size: 15px;
+}
+
+div.big-image.big-first {
+    background-image: url(assets/Layer\ 10.png);
+}
+
+div.big-image.big-second {
+    background-image: url(assets/Layer\ 12.png);
+}
+
+.foto-with-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+div.box-text {
+    flex: 2;
+    display: flex;
+}
+
+.texts-foto-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.texts-foto-box.first {
+    background-image: url(assets/Layer\ 11.png);
+}
+
+.texts-foto-box.second {
+    background-image: url(assets/Layer\ 20.png);
+}
+
+.box-text-wrapper {
+    margin: auto 50px;
+    text-align: center;
+}
+     
   /* Section Paul */
 
 #paul {

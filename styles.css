@@ -31,9 +31,23 @@ div.big-image:hover {
     transform: scale(1.2);
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
+li {
+    display: inline;
+    align-content: center;
+}
+
+.introduction-box {
+  display: flex;
+  height: 450px;
+  width: 1600px;
+}
+
+nav {
+  height: 800px;
+  width: 1600px;
+  background-image: url(./assets/Layer\ 7.png);
+  display: flex;
+  justify-content: space-around;
 }
 
 body {
@@ -41,10 +55,11 @@ body {
 }
 
 .introduction {
-    height: 450px;
-    width: 1600px;
     text-align: center;
     font-size: 15px;
+    margin: auto;
+    justify-content: flex-end;
+
 }
 
 div.big-image.big-first {
@@ -86,6 +101,10 @@ div.box-text {
 }
 
 
+  /* Section Paul */
+
+
+
 /* Section Paul */
 
 #paul p {
@@ -101,21 +120,24 @@ div.box-text {
 }
 
 .twitterBlock {
-    height: 450px;
-    width: 1600px;
-    background-color: rgb(247, 247, 247);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  height: 450px;
+  width: 1600px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .tweet {
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
 .tweet p {
@@ -123,8 +145,9 @@ div.box-text {
 }
 
 .twitterBlock img {
-    height: 27px;
-    width: 32px;
+
+  height: 27px;
+  width: 32px;
 }
 
 .mosaic2 {
@@ -136,20 +159,21 @@ div.box-text {
 }
 
 .blackBlock {
-    height: 200px;
-    width: 1600px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  height: 200px;
+  width: 1600px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blackBlockText {
-    width: 300px;
-    border: 3px solid white;
-    color: rgb(247, 247, 247);
-    text-align: center;
-    font-size: 30px;
+ width: 300px;
+ border: 3px solid white;
+ color:rgb(247, 247, 247);
+ text-align: center;
+ font-size: 30px;
 }
 
 .emailBlock {
@@ -188,33 +212,35 @@ div.box-text {
 }
 
 .iconsBlock {
-    height: 250px;
-    width: 1600px;
-    background-color: rgb(247, 247, 247);
-    display: flex;
+  height: 250px;
+  width: 1600px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
 }
 
 .iconContainer {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 1400px;
 }
 
 .icon1 {
-    font-size: 15px;
+
+  font-size: 15px;
 }
 
 .icon2 {
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
+  width: 200px;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .icon3 {
-    font-size: 20px;
-    align-self: center;
+  font-size: 20px;
+  align-self: center;
 }
 
 

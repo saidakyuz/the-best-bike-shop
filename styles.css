@@ -20,9 +20,23 @@ div.big-image {
     align-items: center;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
+li {
+    display: inline;
+    align-content: center;
+}
+
+.introduction-box {
+  display: flex;
+  height: 450px;
+  width: 1600px;
+}
+
+nav {
+  height: 800px;
+  width: 1600px;
+  background-image: url(./assets/Layer\ 7.png);
+  display: flex;
+  justify-content: space-around;
 }
 
 body {
@@ -30,10 +44,11 @@ body {
 }
 
 .introduction {
-    height: 450px;
-    width: 1600px;
     text-align: center;
     font-size: 15px;
+    margin: auto;
+    justify-content: flex-end;
+
 }
 
 div.big-image.big-first {
@@ -73,7 +88,7 @@ div.box-text {
     margin: auto 50px;
     text-align: center;
 }
-     
+
   /* Section Paul */
 
 #paul {
@@ -97,13 +112,13 @@ div.box-text {
   width: 1600px;
   background-color: rgb(247, 247, 247);
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
 }
 
 .tweet {
-  
+
   width: 800px;
   display: flex;
   flex-direction: column;
@@ -121,7 +136,7 @@ div.box-text {
 .twitterBlock img {
   height: 27px;
   width: 32px;
-  
+
 }
 
 
@@ -142,8 +157,8 @@ div.box-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
+
+
 }
 
 .blackBlockText {
@@ -152,8 +167,8 @@ div.box-text {
  color:rgb(247, 247, 247);
  text-align: center;
  font-size: 30px;
- 
- 
+
+
 }
 
 
@@ -198,7 +213,7 @@ div.box-text {
   width: 1600px;
   background-color: rgb(247, 247, 247);
   display: flex;
-  
+
 }
 
 .iconContainer {
@@ -207,32 +222,32 @@ div.box-text {
   justify-content: space-between;
   height: 50px;
   width: 1400px;
-  
+
 
 }
 
 .icon1 {
-  
+
   font-size: 15px;
-  
+
 }
 
 .icon2 {
   width: 200px;
-  
+
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .icon3 {
   font-size: 20px;
   align-self: center;
 
-  
+
 }
-      
-      
+
+
 /* 1.grey box: 1600 x 450px
 black box: 1600 x 200px
 email section: 1600 x 450px

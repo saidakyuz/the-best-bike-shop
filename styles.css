@@ -385,6 +385,9 @@
 
     .mosaic2 {
         display: flex;
+        height: 534px;
+        width: 1600px;
+        overflow: hidden;
     }
 
     .mosaic2Flex {

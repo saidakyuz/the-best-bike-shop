@@ -144,7 +144,6 @@
 }
 
 .texts-foto-box.second {
-<<<<<<< HEAD
     background-image: url(assets/Layer\ 20.png);
 }
 
@@ -209,17 +208,10 @@
   
 }
 
-
-
-
-
-
 .mosaic2Flex {
   display: flex;
   
 }
-
-
 
 .blackBlock {
   height: 200px;
@@ -270,6 +262,7 @@
 .emailSection input {
   height: 50px;
   width: 300px;
+  padding-left: 10px;
 }
 
 .emailSection button {
@@ -305,7 +298,6 @@
 
 .icon2 {
   width: 200px;
-
   display: flex;
   justify-content: space-between;
 
@@ -342,7 +334,7 @@
         width: 1600px;
     }
     /* Section Paul */
-    /* Section Paul */
+    
 
     #paul p {
         margin: 0;

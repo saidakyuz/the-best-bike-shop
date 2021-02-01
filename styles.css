@@ -72,6 +72,15 @@
         justify-content: flex-end;
     }
 
+    .introduction img:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+
+    .introduction img {
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      transition: transform .8s ease-in-out;
+
     div.big-image.big-first:hover {
         background-image: url(assets/Layer\ 10.png);
     }

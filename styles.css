@@ -10,6 +10,16 @@
         text-align: justify;
     }
     
+    .box-text img:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    
+    .box-text img {
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+    }
+    
     div.big-image {
         flex: 2;
         background-size: cover;

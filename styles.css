@@ -25,10 +25,15 @@ li {
     align-content: center;
 }
 
+ul {
+  padding: 0px;
+}
+
 .introduction-box {
   display: flex;
   height: 450px;
   width: 1600px;
+  justify-content: flex-end;
 }
 
 nav {

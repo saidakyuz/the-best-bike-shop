@@ -5,10 +5,11 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .box-text p {
         text-align: justify;
     }
+
     
     .box-text img:hover {
         -webkit-transform: rotate(360deg);
@@ -19,7 +20,7 @@
         -webkit-transition: -webkit-transform .8s ease-in-out;
         transition: transform .8s ease-in-out;
     }
-    
+
     div.big-image {
         flex: 2;
         background-size: cover;
@@ -29,25 +30,29 @@
         align-items: center;
         opacity: 0.5 dark;
     }
-    
+
     div.big-image:hover {
         opacity: 1;
         transform: scale(1.2);
         z-index: 9;
         /*How to assign an attribute to the child element? When hover, can I spin the logo */
     }
-    
+
     li {
         display: inline;
         align-content: center;
     }
-    
+
+    ul {
+      padding: 0px;
+    }
+
     .introduction-box {
         display: flex;
         height: 450px;
         width: 1600px;
     }
-    
+
     nav {
         height: 800px;
         width: 1600px;
@@ -55,46 +60,46 @@
         display: flex;
         justify-content: space-around;
     }
-    
+
     body {
         background-color: white;
     }
-    
+
     .introduction {
         text-align: center;
         font-size: 15px;
         margin: auto;
         justify-content: flex-end;
     }
-    
+
     div.big-image.big-first:hover {
         background-image: url(assets/Layer\ 10.png);
     }
-    
+
     div.big-image.big-first {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/Layer\ 10.png);
     }
-    
+
     div.big-image.big-second:hover {
         background-image: url(assets/Layer\ 12.png);
     }
-    
+
     div.big-image.big-second {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/Layer\ 12.png);
     }
-    
+
     .foto-with-text {
         flex: 1;
         display: flex;
         flex-direction: column;
         position: relative;
     }
-    
+
     div.box-text {
         flex: 2;
         display: flex;
     }
-    
+
     .texts-foto-box {
         background-size: cover;
         background-repeat: no-repeat;
@@ -120,7 +125,7 @@
     border-bottom: 500px solid #000000;
     border-left: 923px solid transparent;
 }*/
-    
+
     .texts-foto-box:after {
         content: '';
         display: block;
@@ -145,35 +150,35 @@
 .texts-foto-box.third {
     background-image: url(assets/Layer\ 16.png);
 }*/
-    
+
     .texts-foto-box img {
         width: 100%;
         height: 100%;
     }
-    
+
     .box-text-wrapper {
         margin: auto 50px;
         text-align: center;
     }
-    
+
     #said {
         width: 1600px;
     }
     /* Section Paul */
     /* Section Paul */
-    
+
     #paul p {
         margin: 0;
     }
-    
+
     .greyblock1 {
         height: 450px;
     }
-    
+
     .blackblock {
         height: 200px;
     }
-    
+
     .twitterBlock {
         height: 450px;
         width: 1600px;
@@ -182,7 +187,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .tweet {
         width: 800px;
         display: flex;
@@ -191,24 +196,24 @@
         align-items: center;
         text-align: center;
     }
-    
+
     .tweet p {
         color: grey;
     }
-    
+
     .twitterBlock img {
         height: 27px;
         width: 32px;
     }
-    
+
     .mosaic2 {
         display: flex;
     }
-    
+
     .mosaic2Flex {
         display: flex;
     }
-    
+
     .blackBlock {
         height: 200px;
         width: 1600px;
@@ -217,7 +222,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .blackBlockText {
         width: 300px;
         border: 3px solid white;
@@ -225,14 +230,14 @@
         text-align: center;
         font-size: 30px;
     }
-    
+
     .emailBlock {
         height: 450px;
         width: 1600px;
         background-color: white;
         display: flex;
     }
-    
+
     .emailSection {
         margin: auto;
         width: 500px;
@@ -242,32 +247,32 @@
         flex-direction: column;
         justify-content: space-around;
     }
-    
+
     .emailSection img {
         height: auto;
         width: auto;
         align-self: center;
     }
-    
+
     .emailSection input {
         height: 50px;
         width: 300px;
     }
-    
+
     .emailSection button {
         height: 50px;
         width: 75px;
         color: rgb(247, 247, 247);
         background-color: seagreen;
     }
-    
+
     .iconsBlock {
         height: 250px;
         width: 1600px;
         background-color: rgb(247, 247, 247);
         display: flex;
     }
-    
+
     .iconContainer {
         margin: auto;
         display: flex;
@@ -275,17 +280,17 @@
         height: 50px;
         width: 1400px;
     }
-    
+
     .icon1 {
         font-size: 15px;
     }
-    
+
     .icon2 {
         width: 200px;
         display: flex;
         justify-content: space-between;
     }
-    
+
     .icon3 {
         font-size: 20px;
         align-self: center;

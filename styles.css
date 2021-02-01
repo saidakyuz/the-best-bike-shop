@@ -95,6 +95,8 @@ div.box-text {
 
 }
 
+
+
 #paul p {
   margin: 0;
 }
@@ -131,8 +133,6 @@ div.box-text {
   color: grey;
 }
 
-
-
 .twitterBlock img {
   height: 27px;
   width: 32px;
@@ -142,10 +142,17 @@ div.box-text {
 
 .mosaic2 {
   display: flex;
+  
 }
+
+
+
+
+
 
 .mosaic2Flex {
   display: flex;
+  
 }
 
 
